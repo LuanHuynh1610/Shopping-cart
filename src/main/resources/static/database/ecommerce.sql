@@ -72,16 +72,7 @@ CREATE TABLE IF NOT EXISTS `order_address` (
 
 -- Dumping data for table ecommerce_tb.order_address: ~10 rows (approximately)
 INSERT INTO `order_address` (`id`, `address`, `city`, `email`, `first_name`, `last_name`, `mobile_no`, `pincode`, `state`) VALUES
-	(5, 'Hoà Hải', 'Đà Nẵng', 'huynhdangquoc2004@gmail.com', 'Huynh Dang', 'Quoc', '0905923427', '12345', 'NHS'),
-	(6, 'Tam Ky', 'Quang Nam', 'demo@gmail.com', 'Ho Gia', 'Huy', '0905923427', '1223', 'NHS'),
-	(7, 'Tổ 42, Trần Đại Nghĩa', 'Đà Nẵng', 'huynhdangquoc2004@gmail.com', 'Huynh Dang', 'Quoc', '0905923427', '5544', 'NHS'),
-	(8, 'Tổ 42, Trần Đại Nghĩa', 'Đà Nẵng', 'huynhdangquoc2004@gmail.com', 'Huynh Dang', 'Quoc', '0905923427', '5544', 'NHS'),
-	(23, 'Tran Dai Nghia 2', 'Đà Nẵng', 'bichthiho1989@gmail.com', 'Ho Thi ', 'Bich', '0905923427', '22345', 'NHS'),
-	(24, 'Tran Dai Nghia 2', 'Đà Nẵng', 'bichthiho1989@gmail.com', 'Ho Thi ', 'Bich', '0905923427', '22345', 'NHS'),
-	(25, 'Tran Dai Nghia 2', 'Da Nang 2', 'demo@gmail.com', 'Huynh Dang', 'Quoc', '123455667657', '22345', 'NHS'),
-	(26, 'Tran Dai Nghia 2', 'Da Nang 2', 'demo@gmail.com', 'Huynh Dang', 'Quoc', '123455667657', '22345', 'NHS'),
-	(27, 'Tran Dai Nghia 2', 'Da Nang 2', 'demo@gmail.com', 'Huynh Dang', 'Quoc', '123455667657', '22345', 'NHS'),
-	(28, 'Tran Dai Nghia 2', 'Da Nang 2', 'demo@gmail.com', 'Huynh Dang', 'Quoc', '123455667657', '22345', 'NHS');
+	(5, 'Hoà Hải', 'binh duong', 'huynhdangquoc2004@gmail.com', 'Huynh Dang', 'Quoc', '0905923427', '12345', 'NHS'),
 
 -- Dumping structure for table ecommerce_tb.product
 CREATE TABLE IF NOT EXISTS `product` (
@@ -162,11 +153,7 @@ CREATE TABLE IF NOT EXISTS `user_dtls` (
 
 -- Dumping data for table ecommerce_tb.user_dtls: ~5 rows (approximately)
 INSERT INTO `user_dtls` (`id`, `address`, `city`, `email`, `mobile_number`, `name`, `password`, `pincode`, `profile_image`, `state`, `role`, `is_enable`, `account_non_locked`, `failed_attempt`, `lock_time`, `reset_token`) VALUES
-	(5, 'Tran Dai Nghia', 'Da Nang 23', 'demo@gmail.com', '0905923427', 'Quocne', '$2a$10$z7SY0AjnrepFeuTwmQjvEexoH6pPZlmTNnutW.8zKzOpNUrjJHgMS', '22345', 'watches3.jpg', 'Alone', 'ROLE_USER', b'1', b'1', 1, NULL, '89292ffc-d2a5-4a8d-bb4c-f83c86461812'),
-	(6, 'Tran Dai Nghia', 'Quang Nam', 'admin@gmail.com', '123456789', 'Admin', '$2a$12$ehGPJ6vKc0KqzcHqmuQGX.8QLqOGt0jHzkX9iaiLgIcE7DfbSAGGK', '12345', 'laptop4.png', 'Alone', 'ROLE_ADMIN', b'1', b'1', 2, NULL, NULL),
-	(7, 'Hoà Hải', 'Đà Nẵng', 'quoc@gmail.com', '0905923427', 'Huỳnh Đăng Quốc', '$2a$10$sx2dv4T2XSmEAMhAy.1jRO4ctaYMLKZK48gCZiUxo6LBectvTlhOi', '455', 'quoc.jpg', 'NHS', 'ROLE_USER', b'1', b'1', 0, NULL, NULL),
-	(8, 'Tran Dai Nghia 2', 'Quang Nam 2', 'admin2@gmail.com', '123456789', 'Admin MC', '$2a$10$.FqNaqVewVt.e7mT9jDhX.e5x4Nj2g1.0KnzqUXBXpQOmqM/Dqkz.', '22345', 'laptop.jpg', 'NHS', 'ROLE_ADMIN', b'1', b'1', 0, NULL, NULL),
-	(22, 'Tran Dai Nghia', 'Da Nang 23', 'demo2@gmail.com', '0905923427', 'Tuan Tu', '$2a$10$Qend/640QPSAbVckQ3agP.ocqynQX9Vj8kB6kwUQJYC88EamQpGWq', '22345', 'room2.jpg', 'NHS', 'ROLE_USER', b'1', b'1', 0, NULL, NULL);
+	(5, 'Tran Dai Nghia', 'binh duong 23', 'demo@gmail.com', '0905923427', 'Quocne', '$2a$10$z7SY0AjnrepFeuTwmQjvEexoH6pPZlmTNnutW.8zKzOpNUrjJHgMS', '22345', 'watches3.jpg', 'Alone', 'ROLE_USER', b'1', b'1', 1, NULL, '89292ffc-d2a5-4a8d-bb4c-f83c86461812'),
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;

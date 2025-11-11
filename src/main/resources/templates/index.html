@@ -12,16 +12,16 @@
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="img/heli1.jpg" class="d-block w-100" alt="..."
-                    height="350px">
+                    height="500px">
                 </div>
                 <div class="carousel-item active">
                     <img src="img/heli2.jpg" class="d-block w-100" alt="..."
-                         height="350px">
+                         height="500px">
                 </div>
 
                 <div class="carousel-item active">
                     <img src="img/heli3.jpg" class="d-block w-100" alt="..."
-                         height="350px">
+                         height="500px">
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
@@ -44,7 +44,7 @@
                     <div
                         class="card rounded-circle shadow-sm p-3 mb-5 bg-body-tertiary rounded">
                         <div class="card-body text-center">
-                            <img th:src="@{'img/category_img/'+${c.imageName}}" width="65%" height="140px">
+                            <img th:src="@{'img/category_img/'+${c.imageName}}" width="80%" height="140px">
                             <a th:href="@{'/products?category='+${c.name}}" class="text-decoration-none text-dark">[[${c.name}]]</a>
 
                         </div>
@@ -125,7 +125,7 @@
                     <div class="card">
                         <div class="card-body text-center">
                             <img alt="" th:src="@{'img/product_img/'+${p.image}}" class="" width="65%"
-                            height="140px">
+                            height="300px">
                             <p class="text-center"><a th:href="@{'/product/'+${p.id}}" class="text-decoration-none text-dark" > [[${p.title}]] </a></p>
                         </div>
                     </div>

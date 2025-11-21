@@ -21,6 +21,7 @@ public interface OrderService {
 
     public Integer countOrder();
 
+
     public Double totalOrderRevenue();
 
 }
